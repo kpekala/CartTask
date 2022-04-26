@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-26T08:30:14" hostname="DESKTOP-PMS6FCL" time="1.242">
+  <properties/>
+  <testcase name="fetchedUserListIsNotEmpty()" classname="Tests" time="1.242"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
