@@ -5,9 +5,9 @@ import java.util.List;
 public class Cart {
     private String id;
     private String userId;
-    private List<Product> products;
+    private List<ProductSummary> products;
 
-    public Cart(String id, String userId, List<Product> products) {
+    public Cart(String id, String userId, List<ProductSummary> products) {
         this.id = id;
         this.userId = userId;
         this.products = products;
@@ -29,11 +29,11 @@ public class Cart {
         this.userId = userId;
     }
 
-    public List<Product> getProducts() {
+    public List<ProductSummary> getProducts() {
         return products;
     }
 
-    public void setProducts(List<Product> products) {
+    public void setProducts(List<ProductSummary> products) {
         this.products = products;
     }
 }
